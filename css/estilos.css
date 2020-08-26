@@ -7,11 +7,9 @@ Valor blueviolet*/
 
 /* Selectores de etiqueta.- referencia a etiqueta
 que será manipulada para dar un estilo*/
-
  
 /* Selectores descendente.- Elemento hijo de cualquier
-selector de etiqueta
-NO TAN LARGAS*/
+selector de etiqueta*/
 header nav ul li a{
   color: black
 }
@@ -23,13 +21,7 @@ ul{
   height: inherit;
 }
 
-/* Selectores de clase o de id
-YA NO SE DA ESTILO CON ID 
-CLASE MAS USADO*/
 
-
-/* YA NO SE DA ESTILO CON ID 
-<h2 id="title>*/
 #title{
   color:red
 }
@@ -125,24 +117,7 @@ h2{
   height: inherit;
 }
  
-  
-/* .projects{
-  border: 10px solid red;
-  border-top:10px solid black;
-  border-bottom: 10px solid yellow;
-  border-first: 10px solid blue;
-} */
-/* .projects{
-  border-width: 10px;
-  border-style: solid;
-  border-color: tomato;
-} */
-
-
-.project{
-  /* border-top: 10px solid black; */
-  /* border-bottom: 10px solid yellow; */
-  /* border: 1px solid black; */
+.project{ 
   border-radius: 10px;
   box-shadow: -15px 0px 20px black;
   /* box-shadow: derecha abajo difuminado color */
@@ -389,27 +364,4 @@ margin:0px;
   flex-wrap: inherit;
 }
 
-
-/* .flexbox{
-  display: flex;
-  height: 100px;
-
-  flex-direction: row;
-
-  flex-wrap: nowrap;
-  justify-content:center; 
-  align-items: center;
-  border: 1px solid red;
-}
-.box{
-  width: 50px;
-  height: 50px;
-  border: 2px solid black;
-  flex-shrink: 1;
-  margin: 10px;
-}
-
-.box:nth-of-type(1){
-
-} */
 
